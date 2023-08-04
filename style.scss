@@ -1,0 +1,297 @@
+@import "./overrite";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+}
+
+nav {
+  img {
+    width: 100px;
+  }
+  ul {
+    li {
+      font-size: 13px;
+    }
+  }
+  .nav-drop {
+    img {
+      width: 35px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+.head-line {
+  .head-1 {
+    h1 {
+      color: white;
+      margin-right: 15px;
+    }
+    a {
+      border: 1px solid white;
+      padding: 5px 10px;
+    }
+  }
+  .head-2 {
+    i {
+      border: 1px solid white;
+      padding-inline: 3px;
+      margin-inline: -1px;
+    }
+  }
+}
+
+.sezione {
+  h4 {
+    color: white;
+    margin-bottom: 15px;
+  }
+}
+footer {
+  margin-top: 150px;
+  padding-inline: 25%;
+  .icone {
+    margin-bottom: 10px;
+    i {
+      margin-inline: 5px;
+      color: #808080;
+    }
+  }
+  .row {
+    .link {
+      color: #595959;
+      font-size: 12px;
+    }
+  }
+  button {
+    background-color: transparent;
+    border: 1px solid #595959;
+    color: #595959;
+    font-size: 12px;
+    padding: 5px 8px;
+    margin-block: 10px;
+  }
+  p {
+    color: #595959;
+    font-size: 12px;
+  }
+}
+
+.header-profile {
+  img {
+    width: 100px;
+  }
+}
+.main-profile {
+  padding-inline: 27%;
+  .title {
+    color: white;
+
+    border-bottom: 1px solid #595959;
+  }
+  .sezione-profile {
+    border-bottom: 1px solid #595959;
+    padding-bottom: 20px;
+    .div-img {
+      width: 160px;
+      height: 160px;
+      img {
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        align-items: flex-start;
+      }
+      .div-i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #141414;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        bottom: 5px;
+        left: 10px;
+      }
+    }
+    .sez-interna-profile {
+      margin-left: 20px;
+      flex-grow: 1;
+      .sez-1 {
+        border-bottom: 1px solid #595959;
+        padding-bottom: 20px;
+
+        .h2-profile {
+          color: white;
+          background-color: #595959;
+          padding: 5px;
+        }
+        p {
+          font-size: 20px;
+          color: #c7cccc;
+        }
+        a {
+          border: 1px solid white;
+          padding: 5px 10px;
+        }
+      }
+      .sez-2 {
+        border-bottom: 1px solid #595959;
+        padding-bottom: 20px;
+        p {
+          font-size: 20px;
+          color: #c7cccc;
+        }
+        .btn-1 {
+          background-color: #333333;
+          border: none;
+        }
+        span {
+          font-size: 15px;
+          color: white;
+        }
+        .btn-2 {
+          background-color: transparent;
+          border: 1px solid #6c6c6c;
+          color: #6c6c6c;
+        }
+      }
+      .sez-3 {
+        h5 {
+          color: #c7cccc;
+        }
+        p {
+          color: white;
+          font-size: 13px;
+        }
+        input {
+          height: 25px;
+          width: 25px;
+          accent-color: #141414;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.bottoni {
+  button {
+    background-color: transparent;
+    border: 1px solid #6c6c6c;
+    color: #6c6c6c;
+    padding-inline: 20px;
+    padding-block: 5px;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+.body-setting {
+  background-color: white;
+}
+.main-setting {
+  padding-inline: 20%;
+}
+.member-1,
+.plan-1,
+.set-1,
+.prof-1 {
+  width: 300px;
+}
+.membership {
+  border-top: 1px solid #808080;
+  padding-top: 10px;
+  h4 {
+    font-size: 18px;
+    color: #808080;
+  }
+  button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #c7cccc;
+    color: #141414;
+  }
+  .box-1 {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+    p {
+      font-size: 17px;
+      font-weight: bold;
+      margin: 0;
+    }
+    span {
+      font-size: 13px;
+      color: #808080;
+    }
+  }
+  .box-2 {
+    border-bottom: 1px solid #808080;
+    padding-bottom: 5px;
+    p {
+      font-size: 17px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.plan-details {
+  border-top: 1px solid #808080;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  h4 {
+    font-size: 18px;
+    color: #808080;
+  }
+  .box-4 {
+    p {
+      font-size: 17px;
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.settings {
+  h4 {
+    font-size: 18px;
+    color: #808080;
+  }
+  border-top: 1px solid #808080;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.profile {
+  h4 {
+    font-size: 18px;
+    color: #808080;
+  }
+  border-top: 1px solid #808080;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+}
