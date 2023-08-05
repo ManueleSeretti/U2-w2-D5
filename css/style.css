@@ -12241,4 +12241,12 @@ footer p {
 }
 .profile a {
   text-decoration: none;
+}
+
+.btn-sin {
+  left: -115px;
+}
+
+.btn-des {
+  right: -115px;
 }/*# sourceMappingURL=style.css.map */
